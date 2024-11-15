@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Kancharro - Fast Food</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Encabezado de la Página -->
+  <header>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre Nosotros</a></li>
+        <li><a href="#products">Productos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="image-logo el-kancharro">
+      <img src="images/logo el kancharro.png" alt="Logo El Kancharro" id="logo">
+    </div>
+    <h1>Bienvenido a El Kancharro</h1>
+    <p>Tu mejor eleccion</p>
+    
+  </header>
+  <!-- Sección del Menú -->
+<main>
+    <main>
+        <section class="menu-section">
+          <h2 class="menu-heading">Batidos</h2>
+          <ul class="menu-list">
+            <li class="menu-item">Mora <span class="menu-price">$1.25 / $1.00</span></li>
+            <li class="menu-item">Naranjilla <span class="menu-price">$1.25 / $1.00</span></li>
+            <li class="menu-item">Piña <span class="menu-price">$1.25 / $1.00</span></li>
+            <li class="menu-item">Papaya <span class="menu-price">$1.25 / $1.00</span></li>
+          </ul>
+        </section>
+      
+        <section class="menu-section">
+          <h2 class="menu-heading">Snacks</h2>
+          <ul class="menu-list">
+            <li class="menu-item">Empanadas (Queso, pollo, carne) <span class="menu-price">$0.75</span></li>
+            <li class="menu-item">Pan de yuca <span class="menu-price">$1.00</span></li>
+            <li class="menu-item">Patacón (queso, salchicha, salsa de la casa) <span class="menu-price">$1.25</span></li>
+            <li class="menu-item">Hot dogs clásicos <span class="menu-price">$1.50</span></li>
+            <li class="menu-item">Hamburguesa <span class="menu-price">$2.00</span></li>
+            <li class="menu-item">Hamburguesa + papas <span class="menu-price">$2.50</span></li>
+            <li class="menu-item">Hamburguesa completa <span class="menu-price">$3.00</span></li>
+          </ul>
+        </section>
+      
+        <section class="menu-section">
+          <h2 class="menu-heading">Otras bebidas</h2>
+          <ul class="menu-list">
+            <li class="menu-item">Jugos <span class="menu-price">$0.35</span></li>
+            <li class="menu-item">Avena <span class="menu-price">$0.35</span></li>
+            <li class="menu-item">Gaseosas <span class="menu-price">$0.60</span></li>
+            <li class="menu-item">Café <span class="menu-price">$0.50</span></li>
+          </ul>
+        </section>
+      </main>
+      
+  
+
+  <!-- Sección de Imagen de Bienvenida -->
+  <section id="home">
+    <img src="images/banner.png" alt="Imagen de un plato de comida rápida de El Kancharro" class="banner-image">
+  </section>
+
+  <!-- Sección de Acerca de Nosotros -->
+  <section id="about">
+    <h2>¿Quiénes somos?</h2>
+    <p>El Kancharro es una empresa joven y dinámica que se especializa en ofrecer comida rápida de alta calidad, con un sabor auténtico y único.</p>
+  </section>
+
+  <!-- Sección de Productos Destacados -->
+  <section id="products">
+    <h2>Productos Populares</h2>
+    <div class="product-container">
+      <div class="product">
+        <img src="images/hamburguesa.jpg" alt="Hamburguesa Kancharro" class="product-image">
+        <h3>Hamburguesa Kancharro</h3>
+        <p>Una deliciosa combinación de ingredientes frescos y una salsa secreta única.</p>
+      </div>
+      <div class="product">
+        <img src="images/batidos.jpg" alt="Batidos de frutas" class="product-image">
+        <h3>Batidos de frutas</h3>
+        <p>Batido estilo frappe de tus frutas favoritas, la mejor combinación para el pan de yuca.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario de Contacto -->
+  <section id="contact">
+    <h2>Contáctanos</h2>
+    <form id="contact-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2024 El Kancharro | Todos los derechos reservados</p>
+    <p>Dirección: Nuevos Horizontes, Esmeraldas | Teléfono: (+593) 999947574</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/profile.php?id=61564464262670" target="_blank" aria-label="Facebook">
+        <img src="images/descarga.jpeg" alt="Facebook" class="social-icon">
+      </a>
+      <a href="https://instagram.com/elkancharro/" target="_blank" aria-label="Instagram">
+        <img src="images/descarga (1).jpeg" alt="Instagram" class="social-icon">
+      </a>
+      <a href="https://www.tiktok.com/@elkancharro?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok">
+        <img src="images/descarga (2).jpeg" alt="TikTok" class="social-icon">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
